@@ -22,7 +22,8 @@ public class MenuManager : MonoBehaviour
     void Start()
     {
         //initializing ads
-        string appId = "ca-app-pub-6755498980044352~2013478578";
+        string appId = "<< your app id here >>"; 
+        // not mentioned my original AppId I used for registering my app on Playstore
         MobileAds.Initialize(appId);
         this.RequestBanner();
 
@@ -36,8 +37,7 @@ public class MenuManager : MonoBehaviour
 
     private void RequestBanner()
     {
-        // ca-app-pub-6755498980044352/2420726583
-        string adUnitId = "ca-app-pub-6755498980044352/2420726583";
+        string adUnitId = "ca-app-pub-3940256099942544/6300978111";
         //adUnitId to use for testing = "ca-app-pub-3940256099942544/6300978111"
         // Create a 320x50 banner at the top of the screen.
         bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
