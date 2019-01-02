@@ -1,2 +1,2 @@
 # Spikey Walls
-A Hyper-Casual game for android devices that I'm developing currently on Unity.
+A Hyper-Casual game for android devices that I have developed on Unity.
